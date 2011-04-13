@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08BA99CB13555DC30074DA49 /* AnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BA99CA13555DC30074DA49 /* AnimatedView.m */; };
+		08BA99D013555F9A0074DA49 /* 77e01f48e4414cf3b9bce0e7578c1527_7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 08BA99CF13555F9A0074DA49 /* 77e01f48e4414cf3b9bce0e7578c1527_7.jpeg */; };
 		08FA88F213555CAF001D22D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FA88F113555CAF001D22D5 /* UIKit.framework */; };
 		08FA88F413555CAF001D22D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FA88F313555CAF001D22D5 /* Foundation.framework */; };
 		08FA88F613555CAF001D22D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FA88F513555CAF001D22D5 /* CoreGraphics.framework */; };
@@ -19,18 +21,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08BA99C913555DC30074DA49 /* AnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedView.h; sourceTree = "<group>"; };
+		08BA99CA13555DC30074DA49 /* AnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedView.m; sourceTree = "<group>"; };
+		08BA99CF13555F9A0074DA49 /* 77e01f48e4414cf3b9bce0e7578c1527_7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 77e01f48e4414cf3b9bce0e7578c1527_7.jpeg; sourceTree = "<group>"; };
 		08FA88ED13555CAF001D22D5 /* BlocksAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlocksAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08FA88F113555CAF001D22D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		08FA88F313555CAF001D22D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		08FA88F513555CAF001D22D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		08FA88F913555CAF001D22D5 /* BlocksAnimation-Info.plist */ = {isa = PBXFileReference; path = "BlocksAnimation-Info.plist"; sourceTree = "<group>"; };
+		08FA88F913555CAF001D22D5 /* BlocksAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlocksAnimation-Info.plist"; sourceTree = "<group>"; };
 		08FA88FB13555CAF001D22D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		08FA88FD13555CAF001D22D5 /* BlocksAnimation-Prefix.pch */ = {isa = PBXFileReference; path = "BlocksAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		08FA88FD13555CAF001D22D5 /* BlocksAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlocksAnimation-Prefix.pch"; sourceTree = "<group>"; };
 		08FA88FE13555CAF001D22D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		08FA890013555CAF001D22D5 /* BlocksAnimationAppDelegate.h */ = {isa = PBXFileReference; path = BlocksAnimationAppDelegate.h; sourceTree = "<group>"; };
+		08FA890013555CAF001D22D5 /* BlocksAnimationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlocksAnimationAppDelegate.h; sourceTree = "<group>"; };
 		08FA890113555CAF001D22D5 /* BlocksAnimationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocksAnimationAppDelegate.m; sourceTree = "<group>"; };
 		08FA890413555CAF001D22D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		08FA890613555CAF001D22D5 /* BlocksAnimationViewController.h */ = {isa = PBXFileReference; path = BlocksAnimationViewController.h; sourceTree = "<group>"; };
+		08FA890613555CAF001D22D5 /* BlocksAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlocksAnimationViewController.h; sourceTree = "<group>"; };
 		08FA890713555CAF001D22D5 /* BlocksAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocksAnimationViewController.m; sourceTree = "<group>"; };
 		08FA890A13555CAF001D22D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BlocksAnimationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +84,8 @@
 		08FA88F713555CAF001D22D5 /* BlocksAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				08BA99C913555DC30074DA49 /* AnimatedView.h */,
+				08BA99CA13555DC30074DA49 /* AnimatedView.m */,
 				08FA890013555CAF001D22D5 /* BlocksAnimationAppDelegate.h */,
 				08FA890113555CAF001D22D5 /* BlocksAnimationAppDelegate.m */,
 				08FA890313555CAF001D22D5 /* MainWindow.xib */,
@@ -93,6 +100,7 @@
 		08FA88F813555CAF001D22D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				08BA99CF13555F9A0074DA49 /* 77e01f48e4414cf3b9bce0e7578c1527_7.jpeg */,
 				08FA88F913555CAF001D22D5 /* BlocksAnimation-Info.plist */,
 				08FA88FA13555CAF001D22D5 /* InfoPlist.strings */,
 				08FA88FD13555CAF001D22D5 /* BlocksAnimation-Prefix.pch */,
@@ -154,6 +162,7 @@
 				08FA88FC13555CAF001D22D5 /* InfoPlist.strings in Resources */,
 				08FA890513555CAF001D22D5 /* MainWindow.xib in Resources */,
 				08FA890B13555CAF001D22D5 /* BlocksAnimationViewController.xib in Resources */,
+				08BA99D013555F9A0074DA49 /* 77e01f48e4414cf3b9bce0e7578c1527_7.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +176,7 @@
 				08FA88FF13555CAF001D22D5 /* main.m in Sources */,
 				08FA890213555CAF001D22D5 /* BlocksAnimationAppDelegate.m in Sources */,
 				08FA890813555CAF001D22D5 /* BlocksAnimationViewController.m in Sources */,
+				08BA99CB13555DC30074DA49 /* AnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +289,7 @@
 				08FA891013555CAF001D22D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
