@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08FA88F213555CAF001D22D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FA88F113555CAF001D22D5 /* UIKit.framework */; };
+		08FA88F413555CAF001D22D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FA88F313555CAF001D22D5 /* Foundation.framework */; };
+		08FA88F613555CAF001D22D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FA88F513555CAF001D22D5 /* CoreGraphics.framework */; };
+		08FA88FC13555CAF001D22D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08FA88FA13555CAF001D22D5 /* InfoPlist.strings */; };
+		08FA88FF13555CAF001D22D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FA88FE13555CAF001D22D5 /* main.m */; };
+		08FA890213555CAF001D22D5 /* BlocksAnimationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FA890113555CAF001D22D5 /* BlocksAnimationAppDelegate.m */; };
+		08FA890513555CAF001D22D5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08FA890313555CAF001D22D5 /* MainWindow.xib */; };
+		08FA890813555CAF001D22D5 /* BlocksAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FA890713555CAF001D22D5 /* BlocksAnimationViewController.m */; };
+		08FA890B13555CAF001D22D5 /* BlocksAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08FA890913555CAF001D22D5 /* BlocksAnimationViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08FA88ED13555CAF001D22D5 /* BlocksAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlocksAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08FA88F113555CAF001D22D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08FA88F313555CAF001D22D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08FA88F513555CAF001D22D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08FA88F913555CAF001D22D5 /* BlocksAnimation-Info.plist */ = {isa = PBXFileReference; path = "BlocksAnimation-Info.plist"; sourceTree = "<group>"; };
+		08FA88FB13555CAF001D22D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08FA88FD13555CAF001D22D5 /* BlocksAnimation-Prefix.pch */ = {isa = PBXFileReference; path = "BlocksAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		08FA88FE13555CAF001D22D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08FA890013555CAF001D22D5 /* BlocksAnimationAppDelegate.h */ = {isa = PBXFileReference; path = BlocksAnimationAppDelegate.h; sourceTree = "<group>"; };
+		08FA890113555CAF001D22D5 /* BlocksAnimationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocksAnimationAppDelegate.m; sourceTree = "<group>"; };
+		08FA890413555CAF001D22D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		08FA890613555CAF001D22D5 /* BlocksAnimationViewController.h */ = {isa = PBXFileReference; path = BlocksAnimationViewController.h; sourceTree = "<group>"; };
+		08FA890713555CAF001D22D5 /* BlocksAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocksAnimationViewController.m; sourceTree = "<group>"; };
+		08FA890A13555CAF001D22D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BlocksAnimationViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08FA88EA13555CAF001D22D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FA88F213555CAF001D22D5 /* UIKit.framework in Frameworks */,
+				08FA88F413555CAF001D22D5 /* Foundation.framework in Frameworks */,
+				08FA88F613555CAF001D22D5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FA88E213555CAF001D22D5 = {
+			isa = PBXGroup;
+			children = (
+				08FA88F713555CAF001D22D5 /* BlocksAnimation */,
+				08FA88F013555CAF001D22D5 /* Frameworks */,
+				08FA88EE13555CAF001D22D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08FA88EE13555CAF001D22D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08FA88ED13555CAF001D22D5 /* BlocksAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08FA88F013555CAF001D22D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08FA88F113555CAF001D22D5 /* UIKit.framework */,
+				08FA88F313555CAF001D22D5 /* Foundation.framework */,
+				08FA88F513555CAF001D22D5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FA88F713555CAF001D22D5 /* BlocksAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				08FA890013555CAF001D22D5 /* BlocksAnimationAppDelegate.h */,
+				08FA890113555CAF001D22D5 /* BlocksAnimationAppDelegate.m */,
+				08FA890313555CAF001D22D5 /* MainWindow.xib */,
+				08FA890613555CAF001D22D5 /* BlocksAnimationViewController.h */,
+				08FA890713555CAF001D22D5 /* BlocksAnimationViewController.m */,
+				08FA890913555CAF001D22D5 /* BlocksAnimationViewController.xib */,
+				08FA88F813555CAF001D22D5 /* Supporting Files */,
+			);
+			path = BlocksAnimation;
+			sourceTree = "<group>";
+		};
+		08FA88F813555CAF001D22D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08FA88F913555CAF001D22D5 /* BlocksAnimation-Info.plist */,
+				08FA88FA13555CAF001D22D5 /* InfoPlist.strings */,
+				08FA88FD13555CAF001D22D5 /* BlocksAnimation-Prefix.pch */,
+				08FA88FE13555CAF001D22D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08FA88EC13555CAF001D22D5 /* BlocksAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08FA890E13555CAF001D22D5 /* Build configuration list for PBXNativeTarget "BlocksAnimation" */;
+			buildPhases = (
+				08FA88E913555CAF001D22D5 /* Sources */,
+				08FA88EA13555CAF001D22D5 /* Frameworks */,
+				08FA88EB13555CAF001D22D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlocksAnimation;
+			productName = BlocksAnimation;
+			productReference = 08FA88ED13555CAF001D22D5 /* BlocksAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FA88E413555CAF001D22D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Whybin \\ TBWA \\ Tequila";
+			};
+			buildConfigurationList = 08FA88E713555CAF001D22D5 /* Build configuration list for PBXProject "BlocksAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FA88E213555CAF001D22D5;
+			productRefGroup = 08FA88EE13555CAF001D22D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08FA88EC13555CAF001D22D5 /* BlocksAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08FA88EB13555CAF001D22D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FA88FC13555CAF001D22D5 /* InfoPlist.strings in Resources */,
+				08FA890513555CAF001D22D5 /* MainWindow.xib in Resources */,
+				08FA890B13555CAF001D22D5 /* BlocksAnimationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08FA88E913555CAF001D22D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FA88FF13555CAF001D22D5 /* main.m in Sources */,
+				08FA890213555CAF001D22D5 /* BlocksAnimationAppDelegate.m in Sources */,
+				08FA890813555CAF001D22D5 /* BlocksAnimationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08FA88FA13555CAF001D22D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08FA88FB13555CAF001D22D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08FA890313555CAF001D22D5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08FA890413555CAF001D22D5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		08FA890913555CAF001D22D5 /* BlocksAnimationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08FA890A13555CAF001D22D5 /* en */,
+			);
+			name = BlocksAnimationViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08FA890C13555CAF001D22D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08FA890D13555CAF001D22D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		08FA890F13555CAF001D22D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlocksAnimation/BlocksAnimation-Prefix.pch";
+				INFOPLIST_FILE = "BlocksAnimation/BlocksAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08FA891013555CAF001D22D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlocksAnimation/BlocksAnimation-Prefix.pch";
+				INFOPLIST_FILE = "BlocksAnimation/BlocksAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08FA88E713555CAF001D22D5 /* Build configuration list for PBXProject "BlocksAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08FA890C13555CAF001D22D5 /* Debug */,
+				08FA890D13555CAF001D22D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08FA890E13555CAF001D22D5 /* Build configuration list for PBXNativeTarget "BlocksAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08FA890F13555CAF001D22D5 /* Debug */,
+				08FA891013555CAF001D22D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FA88E413555CAF001D22D5 /* Project object */;
+}
