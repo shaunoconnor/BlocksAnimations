@@ -9,12 +9,9 @@
 
 @implementation AnimatedView
 
-@synthesize animation;
-
 - (void)dealloc 
 {
     [super dealloc];
-	[animation release];
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event 
@@ -35,3 +32,8 @@
 }
 
 @end
+
+
+
+
+

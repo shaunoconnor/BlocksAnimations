@@ -12,7 +12,6 @@
 @interface BlocksAnimationViewController : UIViewController 
 {
     IBOutlet AnimatedView *animatedView;
-    
 }
 
 @end
