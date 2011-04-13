@@ -3,7 +3,6 @@
 //  BlocksAnimation
 //
 //  Created by Shaun O'Connor on 13/04/11.
-//  Copyright 2011 Whybin \ TBWA \ Tequila. All rights reserved.
 //
 
 #import "BlocksAnimationAppDelegate.h"
@@ -13,15 +12,16 @@
 @implementation BlocksAnimationAppDelegate
 
 
-@synthesize window=_window;
+@synthesize window;
 
-@synthesize viewController=_viewController;
+@synthesize viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
      
-    self.window.rootViewController = self.viewController;
+    // Add the view controller's view to the window and display.
+    [self.window addSubview:viewController.view];    
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -67,8 +67,8 @@
 
 - (void)dealloc
 {
-    [_window release];
-    [_viewController release];
+    [window release];
+    [viewController release];
     [super dealloc];
 }
 
